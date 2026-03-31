@@ -1,0 +1,162 @@
+body {
+  background: #f6f5f1;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  width: 100%;
+  background: white;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* HERO */
+.hero {
+  padding-top: 120px;
+}
+
+.hero-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.profile-img {
+  width: 180px;
+  border-radius: 20px;
+}
+
+.hero-right {
+  max-width: 500px;
+}
+
+.hero-title span {
+  color: #6b8f71;
+}
+
+.hero-buttons {
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.primary {
+  background: #6b8f71;
+  color: white;
+}
+
+.outline {
+  border: 1px solid #6b8f71;
+  color: #6b8f71;
+}
+
+/* BIODATA */
+.biodata-card {
+  background: #eaeaea;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.biodata-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.biodata-item {
+  display: flex;
+  gap: 10px;
+}
+
+/* ABOUT */
+.about-section {
+  padding: 60px 0;
+}
+
+.skill-list {
+  display: flex;
+  gap: 10px;
+}
+
+.skill-item {
+  background: #eaeaea;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+/* EXPERIENCE */
+.experience-section {
+  padding: 60px 0;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.experience-card {
+  background: #eaeaea;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* CONTACT */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.contact-card {
+  background: #eaeaea;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.contact-cta {
+  background: #6b8f71;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.email-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: white;
+  color: #6b8f71;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .biodata-grid,
+  .experience-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
