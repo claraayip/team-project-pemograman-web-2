@@ -181,7 +181,7 @@ function Clara() {
   </div>
 
   <p className="text-sm text-gray-400 mt-4">
-    © 2026 Clara Tri Dianingsih
+    © 2026 Clara Tri 
   </p>
 </footer>
     </>
